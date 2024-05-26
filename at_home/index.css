@@ -1,0 +1,37 @@
+.section__container {
+  text-align: center;
+  background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.section__title {
+  color: rgb(253, 253, 253);
+  font-size: 3em;
+}
+
+.section__subtitle {
+  color: rgb(99, 42, 7);
+  font-size: 2em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #faf9f2;
+  padding: 1em;
+  margin: 4em;
+  border-radius: 10px;
+}
+
+.bookCard {
+  border: 3px solid rgb(230, 229, 229);
+  width: 400px;
+  padding: 2em;
+  margin: 1em;
+}
+
+.img {
+  width: 300px;
+}
