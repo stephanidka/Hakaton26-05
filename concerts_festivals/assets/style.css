@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.title{
+    font-size: 40px
+
+}
+/* header{
+    background-image: url(assets/images/header_concerts.png);
+    height: 600px;
+    max-width: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
