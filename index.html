@@ -8,17 +8,41 @@
 </head>
 <body>
     <header>
-        <img src="assets/images/front_page.png" alt="header">
+        <img src="assets/images/front_page.png" alt="header" class="header_frontPage">
     </header>
     <div class="container">
-    <p>Организуй свое лето :)</p>
+    <p class="title" style="font-size: 40;">Организуй свое лето :)</p>\
+    
+    <label for="city-select"></label>
+    <select id="city-select">
+        <option value="" selected disabled placeholder>Выберите город</option>
+        <option value="psevdograd">Псевдоград</option>
+        <option value="moscow" disabled>Москва</option>
+        <option value="saint-petersburg" disabled>Санкт-Петербург</option>
+        <option value="novosibirsk" disabled>Новосибирск</option>
+        <option value="yekaterinburg" disabled>Екатеринбург</option>
+        <option value="nizhny-novgorod" disabled>Нижний Новгород</option>
+        <option value="kazan" disabled>Казань</option>
+        <option value="chelyabinsk" disabled>Челябинск</option>
+        <option value="omsk" disabled>Омск</option>
+        <option value="samara" disabled>Самара</option>
+        <option value="rostov-on-don" disabled>Ростов-на-Дону</option>
+    </select>
+
     <div class="gridcontainer">
-        <div><a href=""><a href="at_home/index.html">чем заняться дома</a></div>
-        <div><a href="concerts_festivals/index.html">концерты и фестивали</a></div>
-        <div><a href="sport.html">спорт</a></div>
-        <div><a href="Nino/index.html">городские площадки</a></div>
-        <div><a href="aroundtheworld.html">вокруг мира</a></div>
+        <div><a href="at_home/index.html">Летние книги</a></div>
+        <div><a href="concerts_festivals/index.html">Концерты и фестивали</a></div>
+        <div><a href="sport.html">Спорт</a></div>
+        <div><a href="Nino/index.html">Городские площадки</a></div>
+        <div><a href="aroundtheworld.html">Вокруг мира</a></div>
     </div>
 </div>
+<footer>
+    <div class="footer_frontpage">
+        <h1>Насладись каждым моментом этого лета где бы ты не находился!</h1>
+       <p>Keep calm and relax</p> 
+    </div>
+</footer>
+<script src="index.js"></script>
 </body>
 </html>
