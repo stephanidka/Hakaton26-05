@@ -4,3 +4,17 @@
     height: 100vh;
     flex-direction: column;
 }
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gridcontainer > div {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
