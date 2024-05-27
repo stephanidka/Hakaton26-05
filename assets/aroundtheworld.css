@@ -1,3 +1,7 @@
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
 .container{
     width:100%;
     display:flex;
@@ -48,6 +52,22 @@ h2{
     color:darkblue;
 }
 .pic_had{
+    height: 100%;
+    max-width: 100%;
     width: 100vw;
-    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(19, 5, 5);
+    max-width: 100%;
+    width: 100vw;
+    color: #ccc; 
+    height: 150px;
+    text-align: center;
 }
